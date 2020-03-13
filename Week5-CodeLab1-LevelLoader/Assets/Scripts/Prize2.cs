@@ -11,7 +11,8 @@ public class Prize2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        targetScore = GameManager.instance.Score * 2 + 6; //increase the target score every level
+        //targetScore = GameManager.instance.Score * 2 + 6; //increase the target score every level
+        targetScore = 20;
     }
 
     // Update is called once per frame

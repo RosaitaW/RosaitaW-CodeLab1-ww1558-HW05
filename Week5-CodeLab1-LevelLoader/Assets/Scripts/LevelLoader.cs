@@ -12,6 +12,9 @@ public class LevelLoader : MonoBehaviour
     public GameObject prizeSpecial;
     public float xOffset = -5;
     public float yOffset = 5;
+    private const string level0 = "/Level0.txt";
+    private const string level1 = "/Level1.txt";
+    private const string level2 = "/Level2.txt";
     public string fileLevel0 = "Level0.txt";
     public string fileLevel1 = "Level1.txt";
     public string fileLevel2 = "Level2.txt";
